@@ -1,0 +1,17 @@
+-create git repo first
+-make sure you are on the git repo dir
+-use python virtual env
+-install dbt-snowflake rather than dbt
+
+-setup python: 
+  pip install virtualenv
+  virtualenv venv
+  venv\scripts\activate
+
+-setup dbt-snowflake:
+  pip install dbt-snowflake
+
+- make a dir .bdt in the dbt dir
+  mkdir %userprofile%\.dbt
+- initialise dbt project
+  dbt init project_name
